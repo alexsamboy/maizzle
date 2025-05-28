@@ -37,6 +37,18 @@
   <stack name="head" />
 </head>
 <body class="m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] {{ page.bodyClass || '' }}">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1..." />
+    </symbol>
+    <symbol id="icon-location" viewBox="0 0 24 24">
+      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24">
+      <path d="M12 2a10 10 0 1 0 0 20 10..." />
+    </symbol>
+  </svg>
+  
   <if condition="page.preheader">
     <div class="hidden">
       {{{ page.preheader }}}
